@@ -1,0 +1,20 @@
+{
+  "name": "aleasper-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "wsrun --parallel start",
+    "build": "yarn workspaces run build",
+    "dev": "wsrun --parallel dev"
+  },
+  "author": "aleasper",
+  "license": "ISC",
+  "dependencies": {
+    "wsrun": "^5.2.4",
+    "yarn": "^1.22.19"
+  }
+}
