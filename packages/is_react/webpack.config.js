@@ -9,7 +9,7 @@ module.exports = {
     mode: "development",
     devServer: {
         static: {
-            directory: path.join(__dirname, "public"),
+            directory: path.join(__dirname, "build"),
         },
         port: 4000,
     },
